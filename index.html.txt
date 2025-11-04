@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandora Studio | وكالة تصميم الشعارات والهويات البصرية</title>
+  <style>
+    body {
+      font-family: 'Tajawal', sans-serif;
+      margin: 0;
+      background-color: #fafafa;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(135deg, #5c6bc0, #3949ab);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .services, .why-us, .portfolio, .contact, .about, .pricing, .faq {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      color: #3949ab;
+      border-right: 5px solid #5c6bc0;
+      padding-right: 10px;
+      margin-bottom: 1rem;
+    }
+    .service-box, .price-box, .faq-box {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cta a {
+      background: #5c6bc0;
+      color: white;
+      padding: 0.8rem 2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #3949ab;
+    }
+    form {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    input, textarea {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.8rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-family: inherit;
+    }
+    button {
+      background: #5c6bc0;
+      color: white;
+      padding: 0.8rem 2rem;
+      border: none;
+      border-radius: 30px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #3949ab;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Brandora Studio</h1>
+    <p>نصمم هويتك البصرية باحتراف في أقل من 3 أيام 🚀</p>
+    <div class="cta"><a href="#contact">ابدأ الآن</a></div>
+  </header>
+
+  <section class="about">
+    <h2>من نحن</h2>
+    <p>نحن فريق من المصممين المبدعين المتخصصين في بناء العلامات التجارية والهويات البصرية. نؤمن أن التصميم الجيد هو أساس نجاح أي مشروع، ونسعى دائمًا لتقديم تجربة احترافية وسهلة لعملائنا.</p>
+  </section>
+
+  <section class="services">
+    <h2>خدماتنا</h2>
+    <div class="service-box">
+      <h3>تصميم لوجو احترافي</h3>
+      <p>نقدم لوجو بسيط ومميز يعبر عن شخصية علامتك التجارية بأعلى جودة ممكنة.</p>
+    </div>
+    <div class="service-box">
+      <h3>الهوية البصرية الكاملة</h3>
+      <p>تصميم متكامل يشمل اللوجو، الألوان، الكروت، والبروفايل لتوحيد صورة مشروعك.</p>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <h2>الأسعار والعروض</h2>
+    <div class="price-box">
+      <h3>الباقة الأساسية</h3>
+      <p>تصميم لوجو بسيط احترافي خلال 3 أيام.</p>
+      <p><strong>السعر:</strong> 60$</p>
+    </div>
+    <div class="price-box">
+      <h3>باقة الهوية المتكاملة</h3>
+      <p>تشمل تصميم لوجو + هوية ألوان + كارت شخصي + قوالب سوشيال ميديا.</p>
+      <p><strong>السعر:</strong> 150$</p>
+    </div>
+    <div class="price-box">
+      <h3>باقة الشركات</h3>
+      <p>هوية بصرية كاملة مع بروفايل الشركة وملف تعريفي احترافي.</p>
+      <p><strong>السعر:</strong> 250$</p>
+    </div>
+  </section>
+
+  <section class="why-us">
+    <h2>لماذا نحن؟</h2>
+    <ul>
+      <li>تصاميم فريدة ومخصصة لكل عميل 🎨</li>
+      <li>تسليم سريع خلال 2-3 أيام ⚡</li>
+      <li>خدمة عملاء ممتازة بعد التسليم 💬</li>
+    </ul>
+  </section>
+
+  <section class="portfolio">
+    <h2>أعمالنا السابقة</h2>
+    <p>نماذج من تصميماتنا (يمكنك إضافة صور حقيقية لاحقًا):</p>
+    <img src="https://via.placeholder.com/250x150" alt="Logo sample" style="margin:5px;border-radius:10px;">
+    <img src="https://via.placeholder.com/250x150" alt="Logo sample" style="margin:5px;border-radius:10px;">
+    <img src="https://via.placeholder.com/250x150" alt="Logo sample" style="margin:5px;border-radius:10px;">
+  </section>
+
+  <section class="faq">
+    <h2>الأسئلة الشائعة</h2>
+    <div class="faq-box">
+      <h3>كم يستغرق تنفيذ التصميم؟</h3>
+      <p>عادة يتم تسليم اللوجو خلال 2 إلى 3 أيام عمل بعد تأكيد الطلب.</p>
+    </div>
+    <div class="faq-box">
+      <h3>هل أستطيع طلب تعديلات بعد التسليم؟</h3>
+      <p>نعم، نوفر حتى 3 تعديلات مجانية لضمان رضاك التام عن النتيجة.</p>
+    </div>
+    <div class="faq-box">
+      <h3>هل يمكنني استرجاع المبلغ في حال لم تعجبني النتيجة؟</h3>
+      <p>نعم، نضمن لك استرجاع كامل المبلغ في حال لم تحصل على التصميم الذي تطمح إليه.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>تواصل معنا</h2>
+    <form action="#" method="post">
+      <label>الاسم الكامل</label>
+      <input type="text" name="name" placeholder="اكتب اسمك" required />
+      <label>البريد الإلكتروني</label>
+      <input type="email" name="email" placeholder="example@email.com" required />
+      <label>رسالتك</label>
+      <textarea name="message" rows="4" placeholder="اكتب رسالتك هنا"></textarea>
+      <button type="submit">إرسال</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Brandora Studio - جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
